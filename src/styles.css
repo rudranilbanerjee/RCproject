@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  height: 100vh;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.heading {
+  background-color: rgb(25, 25, 224);
+}
+.import_btn {
+  width: 100%;
+}
+.file-choose {
+  width: 100%;
+  border: 1px solid black;
+}
+.main_file {
+  display: none;
+}
+.btn_save {
+  width: 20%;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  border: 1px solid blue;
+  padding: 20px 0;
+}
+.import_File {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.import_btn1 {
+  width: 100%;
+}
+.container {
+  height: 90vh;
+  overflow: auto;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 10px;
+  flex-direction: column;
+}
+.threeButton {
+  display: flex;
+  /* padding: 10px; */
+  margin-bottom: 10px;
+}
+button {
+  height: 20px;
+}
+.img-box {
+  border: 1px solid gray;
+  padding: 10px 2%;
+}
+.img-box img {
+  height: 200px;
+  width: 98%;
+  border: 1px solid black;
+}
+.threeList {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  gap: 80px;
+}
+.typeOfBridge {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  padding-left: 10px;
+  gap: 50%;
+  padding: 20px;
+  border: 1px solid rgb(231, 219, 219);
+}
+.typeOfBridge::before {
+  content: "Type Of Bridge";
+  position: absolute;
+  top: -10px;
+}
+.fivePoint {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  row-gap: 10px;
+  margin-top: 15px;
+  padding-left: 25px;
+}
+.allBox {
+  display: flex;
+  gap: 3px;
+}
+.inputBox {
+  width: 20%;
+}
+.allBox button {
+  width: 30%;
+}
+.selectBox {
+  width: 35%;
+}
+.dotBox {
+  width: 5%;
+}
+.unitD {
+  font-size: 12px;
+}
+.inputBox2 {
+  width: 50%;
+}
+.separate {
+  display: flex;
+  flex-direction: column;
+}
+
+.separate .checking {
+  display: flex;
+}
+.dimension {
+  border: 1px solid rgb(247, 245, 245);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 15px;
+  padding: 20px;
+  border: 1px solid rgb(224, 221, 221);
+  margin-top: 40px;
+  position: relative;
+}
+.dimension::before {
+  content: "Dimensions";
+  position: absolute;
+  top: -10px;
+  left: 40px;
+}
+.dimension-Box {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 5px;
+}
